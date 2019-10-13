@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26867" started-at="2019-10-13T05:20:57Z" finished-at="2019-10-13T05:21:24Z">
+  <suite name="Suite" duration-ms="53548" started-at="2019-10-13T06:11:38Z" finished-at="2019-10-13T06:12:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26867" started-at="2019-10-13T05:20:57Z" finished-at="2019-10-13T05:21:24Z">
-      <class name="testSecnarios.VerifyUpdatedTipValue">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testSecnarios.VerifyUpdatedTipValue@210366b4]" name="beforeClass" is-config="true" duration-ms="19789" started-at="2019-10-13T05:20:57Z" finished-at="2019-10-13T05:21:17Z">
+    <test name="Test" duration-ms="53548" started-at="2019-10-13T06:11:38Z" finished-at="2019-10-13T06:12:32Z">
+      <class name="com.wundermobility.fastip.tests.VerifyUpdatedTipValue">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wundermobility.fastip.tests.VerifyUpdatedTipValue@eec5a4a]" name="beforeClass" is-config="true" duration-ms="23195" started-at="2019-10-13T06:11:38Z" finished-at="2019-10-13T06:12:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="UpdateTipValueAndVerifyTipAmountAndTotalBillAmount()[pri:0, instance:testSecnarios.VerifyUpdatedTipValue@210366b4]" name="UpdateTipValueAndVerifyTipAmountAndTotalBillAmount" duration-ms="7056" started-at="2019-10-13T05:21:17Z" finished-at="2019-10-13T05:21:24Z">
+        <test-method status="PASS" signature="UpdateTipValueAndVerifyTipAmountAndTotalBillAmount()[pri:0, instance:com.wundermobility.fastip.tests.VerifyUpdatedTipValue@eec5a4a]" name="UpdateTipValueAndVerifyTipAmountAndTotalBillAmount" duration-ms="6309" started-at="2019-10-13T06:12:01Z" finished-at="2019-10-13T06:12:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateTipValueAndVerifyTipAmountAndTotalBillAmount -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testSecnarios.VerifyUpdatedTipValue@210366b4]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-10-13T05:21:24Z" finished-at="2019-10-13T05:21:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wundermobility.fastip.tests.VerifyUpdatedTipValue@eec5a4a]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-10-13T06:12:07Z" finished-at="2019-10-13T06:12:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- testSecnarios.VerifyUpdatedTipValue -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.wundermobility.fastip.tests.VerifyUpdatedTipValue -->
+      <class name="com.wundermobility.fastip.tests.VerifyTotalBillValue">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wundermobility.fastip.tests.VerifyTotalBillValue@2b2948e2]" name="beforeClass" is-config="true" duration-ms="20808" started-at="2019-10-13T06:12:08Z" finished-at="2019-10-13T06:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="VerifyTipAmountAndTotalBillAmount()[pri:0, instance:com.wundermobility.fastip.tests.VerifyTotalBillValue@2b2948e2]" name="VerifyTipAmountAndTotalBillAmount" duration-ms="3210" started-at="2019-10-13T06:12:28Z" finished-at="2019-10-13T06:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTipAmountAndTotalBillAmount -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wundermobility.fastip.tests.VerifyTotalBillValue@2b2948e2]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-10-13T06:12:32Z" finished-at="2019-10-13T06:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.wundermobility.fastip.tests.VerifyTotalBillValue -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
